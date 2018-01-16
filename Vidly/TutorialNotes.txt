@@ -1,0 +1,25 @@
+﻿A Global.asax file is a class that has been in ASP.Net projects 
+for a long time. It provides hooks for various events 
+in the application lifecycle. That's we can include 
+code what happens when our application starts. 
+
+The Controller is responsible to handle HTTP request
+
+An action is a method in a controller responsible for 
+handling an HTTP request
+
+A model in an ASP.NET MVC application has the following characteristics:
+* It's a class that includes the application data and rules
+* It's independent of UI
+* It's independent of persistence (meaning it can be stored in any database)
+
+A ViewModel is a model that is build specifically to be passed to the view. 
+
+
+
+Cool shortcuts in MVC:
+
+"mvcaction4 + tab" to create an action. 
+
+
+
