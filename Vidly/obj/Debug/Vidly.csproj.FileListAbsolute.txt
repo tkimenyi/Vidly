@@ -77,3 +77,14 @@ C:\Users\ikimenyi\source\repos\Vidly\Vidly\obj\Debug\Vidly.csprojResolveAssembly
 C:\Users\ikimenyi\source\repos\Vidly\Vidly\obj\Debug\Vidly.csproj.CoreCompileInputs.cache
 C:\Users\ikimenyi\source\repos\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Users\ikimenyi\source\repos\Vidly\Vidly\obj\Debug\Vidly.pdb
+C:\Users\ikimenyi\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.InitialModel.resources
+C:\Users\ikimenyi\source\repos\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.Cache
+C:\Users\ikimenyi\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubscribedToCustomer.resources
+C:\Users\ikimenyi\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
+C:\Users\ikimenyi\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.ChangeModelMembershipType.resources
+C:\Users\ikimenyi\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateTableMigrationTypes.resources
+C:\Users\ikimenyi\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.APpluAnnotationsToCustomers.resources
+C:\Users\ikimenyi\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingNameToMembershipTypes.resources
+C:\Users\ikimenyi\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateDataInMembershipTypes.resources
+C:\Users\ikimenyi\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddBirthdate.resources
+C:\Users\ikimenyi\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddBirthdateNullable.resources
