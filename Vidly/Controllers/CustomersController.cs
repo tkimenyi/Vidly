@@ -26,10 +26,8 @@ namespace Vidly.Controllers
         // GET: Customers
         public ViewResult Index()
         {
-            // the include statement allow us to be able to view membership types of customers
-            // this is what is called eager loading
-            var customers = _context.Customers.Include(c => c.MembershipType).ToList();
-            return View(customers);
+            // check the view to see how we are rendering using DataTable. 
+            return View();
         }
         
 
