@@ -11,15 +11,18 @@
     <div class="form-group">
         @Html.LabelFor(m => m.Customer.Name)
         @Html.TextBoxFor(m => m.Customer.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Customer.Name) <!-- this is a placeholder for a validation. validation logic is handled by ModelState in CustomersController -->
     </div>
     <div class="form-group">
         @Html.LabelFor(m => m.Customer.BirthDate)
         @Html.TextBoxFor(m => m.Customer.BirthDate, "{0:MM/dd/yyyy}", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Customer.BirthDate)
     </div>
    
     <div class="form-group">
         @Html.LabelFor(m => m.Customer.MembershipTypeId)
         @Html.DropDownListFor(m => m.Customer.MembershipTypeId, new SelectList(Model.MembershipTypes, "Id", "Name"), "Select Membership Type", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Customer.MembershipTypeId)
     </div>
     <div class="checkbox">
         <label>
@@ -28,5 +31,12 @@
     </div>
     // add id as a hidden field so that it can be available to the view
     @Html.HiddenFor(m => m.Customer.Id)
+    //this generates a hidden form field (anti forgery token) that is validated when the form is submitted
+    @Html.AntiForgeryToken()
     <button type="submit" class="btn btn-primary">Save</button>
+}
+
+@section scripts
+{
+    @Scripts.Render("~/bundles/jqueryval")
 }

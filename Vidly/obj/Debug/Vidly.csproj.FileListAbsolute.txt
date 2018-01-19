@@ -90,3 +90,4 @@ C:\Users\ikimenyi\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddBirthda
 C:\Users\ikimenyi\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddBirthdateNullable.resources
 C:\Users\ikimenyi\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMovieProperties.resources
 C:\Users\ikimenyi\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddGenresInfo.resources
+C:\Users\ikimenyi\source\repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdatingMovie.resources
